@@ -16,7 +16,12 @@
 html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
-  background: var(--black);
+  background-color: var(--black);
+  background-image: url('images/paint-trace.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100vh;
+  background-attachment: fixed;
   color: var(--text);
   font-family: 'Inter', 'Helvetica Neue', sans-serif;
   font-weight: 300;
