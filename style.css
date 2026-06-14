@@ -403,18 +403,18 @@ h2 {
 
 .film-thumb-tags {
   display: flex;
-  gap: 0.4rem;
+  gap: 0.3rem;
   flex-wrap: nowrap;
   margin-bottom: 0.3rem;
 }
 
 .film-tag {
-  font-size: 0.65rem;
-  letter-spacing: 0.15em;
+  font-size: 0.5rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
   border: 1px solid var(--border);
-  padding: 0.2rem 0.6rem;
+  padding: 0.15rem 0.4rem;
   white-space: nowrap;
 }
 
