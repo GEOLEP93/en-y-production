@@ -1,0 +1,8 @@
+# Dossier local Netlify
+.netlify
+
+# Config locale Claude Code
+.claude
+
+# Fichiers système macOS
+.DS_Store

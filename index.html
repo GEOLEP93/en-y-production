@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>en Y production</title>
+  <meta name="description" content="en Y production — Association de production de courts métrages de cinéma d'auteur et engagé. Paris." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">en Y production</a>
+    <ul class="nav-links">
+      <li><a href="films.html">Films</a></li>
+      <li><a href="index.html#association">L'Association</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="nav-mobile-menu" aria-hidden="true">
+    <ul>
+      <li><a href="films.html">Films</a></li>
+      <li><a href="index.html#association">L'Association</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <header id="hero">
+    <p class="hero-tag">Association de production &nbsp;·&nbsp; Paris &nbsp;·&nbsp; 2026</p>
+    <h1 class="hero-title" style="font-size:clamp(3rem,9vw,7rem);letter-spacing:0.08em;">en Y<br>production</h1>
+    <p class="hero-subtitle">Cinéma d'auteur &nbsp;·&nbsp; Cinéma engagé</p>
+    <div class="hero-line"></div>
+  </header>
+
+  <!-- Association -->
+  <div id="association">
+    <div class="asso-inner">
+      <div class="reveal">
+        <p class="section-label">L'Association</p>
+        <h2>Qui sommes-nous</h2>
+      </div>
+      <div class="asso-text reveal">
+        <p>
+          en Y production est une association dédiée à la production de courts métrages
+          de cinéma d'auteur. Fondée à Paris, elle défend un cinéma engagé, personnel
+          et exigeant — des histoires aux univers éclectiques, portées par une exigence de cinéma.
+        </p>
+        <p>
+          <em>GAVRIEL</em> est son premier film.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="reveal">
+      <p class="section-label" style="justify-content:center">Contact</p>
+      <h2>Nous écrire</h2>
+      <p class="contact-sub">Presse, diffusion, projections, partenariats</p>
+      <a href="mailto:contact@en-y-production.com" class="contact-email">
+        contact@en-y-production.com
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 en Y production</span>
+    <span class="footer-hebrew" aria-hidden="true">גבריאל</span>
+    <span>Tous droits réservés</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
