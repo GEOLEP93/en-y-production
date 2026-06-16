@@ -577,12 +577,13 @@ h2 {
   transition: color 0.3s;
 }
 
-.cast-card:hover .character { color: var(--gold-lt); }
+.cast-card:hover .character { color: var(--text); }
 
 .cast-card .character {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.1rem;
-  color: var(--gold);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
   margin-bottom: 0.5rem;
 }
 
