@@ -573,13 +573,11 @@ h2 {
 }
 
 .cast-card {
-  background: var(--mid);
-  border: 1px solid var(--border);
-  padding: 1.5rem;
-  transition: border-color 0.3s;
+  padding: 0.25rem 0;
+  transition: color 0.3s;
 }
 
-.cast-card:hover { border-color: var(--gold); }
+.cast-card:hover .character { color: var(--gold-lt); }
 
 .cast-card .character {
   font-family: 'Playfair Display', Georgia, serif;
